@@ -1,7 +1,15 @@
 <script setup lang="ts">
-  import { getSession, login } from '@/model/session'
+  import { getSession, login, logout } from '@/model/session'
 
   const session = getSession()
+
+  const doLogin = () => {
+    login()
+  }
+
+  const doLogout = () => {
+    logout
+  }
 
 
 </script>
