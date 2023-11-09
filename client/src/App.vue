@@ -25,4 +25,4 @@ import NavBar from './components/NavBar.vue';
     padding: 5px;
     min-height: 100vh;
   }
-</style>  
+</style>
